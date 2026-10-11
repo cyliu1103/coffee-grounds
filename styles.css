@@ -159,6 +159,59 @@ details p {
   max-width: 46rem;
 }
 
+/* ---------- Gallery ---------- */
+
+.intro { color: var(--muted); margin-bottom: 0; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.gallery figure {
+  margin: 0;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .07);
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center 45%;
+  background: var(--cream-dark);
+}
+
+.gallery figcaption {
+  padding: .9rem 1.1rem 1.1rem;
+  font-size: .93rem;
+  color: var(--muted);
+  flex: 1;
+}
+
+.step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  margin-right: .45rem;
+  border-radius: 50%;
+  background: var(--brown-500);
+  color: #fff;
+  font-size: .78rem;
+  font-weight: 700;
+  vertical-align: 2px;
+}
+
 /* ---------- CTA ---------- */
 
 .cta {
