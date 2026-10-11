@@ -59,38 +59,46 @@
     }
 
     .sticker h1 {
-      font-size: 6.4mm;
+      font-size: 7mm;
       line-height: 1.1;
       margin: 0;
       color: #2b1d13;
-      letter-spacing: .01em;
     }
 
-    .sticker .sub {
-      font-size: 3.1mm;
-      line-height: 1.3;
-      margin: 1.4mm 0 0;
-      color: #6d6156;
+    .sticker .lead {
+      font-size: 3.6mm;
+      line-height: 1.35;
+      margin: 0;
+      color: #4a3423;
+      font-weight: 600;
     }
 
     /* quiet zone: white padding around the code, never crop this */
     .qr-frame {
       background: #fff;
-      padding: 3mm;
+      padding: 3mm 3mm 2mm;
       border-radius: 1.5mm;
       line-height: 0;
     }
 
     .qr-frame img {
       display: block;
-      width: 46mm;
-      height: 46mm;
+      width: 44mm;
+      height: 44mm;
+    }
+
+    .qr-frame .scan {
+      font-size: 2.7mm;
+      line-height: 1;
+      margin: 1.6mm 0 .4mm;
+      color: #4a7c3a;
+      font-weight: 600;
     }
 
     .footer {
       font-size: 2.9mm;
       line-height: 1.35;
-      color: #4a7c3a;
+      color: #4a3423;
       font-weight: 600;
       margin: 0;
     }
@@ -100,7 +108,7 @@
       font-weight: 400;
       color: #6d6156;
       font-size: 2.6mm;
-      margin-top: .6mm;
+      margin-top: .8mm;
     }
 
     @media screen {
@@ -137,18 +145,18 @@
   </p>
 
   <div class="sticker">
-    <div>
-      <h1>Coffee<br>Grounds</h1>
-      <p class="sub">Please empty the knock box into the container</p>
-    </div>
+    <h1>Coffee Grounds</h1>
+
+    <p class="lead">If the coffee knock box is full,<br>please empty it here.</p>
 
     <div class="qr-frame">
       <img src="assets/box-qr.png" alt="QR code linking to the coffee grounds collection page">
+      <p class="scan">Scan to learn more</p>
     </div>
 
     <p class="footer">
-      Container full? Let me know — I'll empty it.
-      <span class="tiny">Grounds only, please. No lids, pods or stirrers.</span>
+      Chen will collect it and feed his worm farm.
+      <span class="tiny">Grounds only, please — no lids, pods or stirrers.</span>
     </p>
   </div>
 </body>

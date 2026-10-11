@@ -17,6 +17,22 @@ at exactly 100 mm square. Print **Actual size** (not "Fit to page") and make sur
 Sticker stock: matte, non-glossy, tear-resistant vinyl — a laminated sheet or a
 sticker printer if the box gets wiped down regularly.
 
+## Copy on the sticker
+
+> **Coffee Grounds**
+>
+> If the coffee knock box is full, please empty it here.
+>
+> *Scan to learn more*
+>
+> Chen will collect it and feed his worm farm.
+> Grounds only, please — no lids, pods or stirrers.
+
+The wording is deliberately short: it's read from a metre or two away, often
+while holding a coffee. The instruction comes first, the reason for collecting
+second, and the detail that people get wrong (plastics) sits last in the
+smallest type.
+
 ## Why 100 mm
 
 - Fits an A4 sheet 4-up without wasting paper
