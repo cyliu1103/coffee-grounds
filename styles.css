@@ -11,6 +11,9 @@
   --muted: #6d6156;
 }
 
+details p + p { margin-top: .75rem; }
+details a { color: var(--green-700); font-weight: 600; }
+
 * { box-sizing: border-box; }
 
 body {
@@ -102,17 +105,6 @@ section { padding: 3.5rem 0; }
   margin-bottom: .5rem;
 }
 .card p { margin-bottom: 0; color: var(--muted); font-size: .96rem; }
-
-.wide { max-width: 44rem; color: var(--muted); }
-
-.note {
-  margin-top: 1.75rem;
-  padding: 1rem 1.25rem;
-  background: #fff;
-  border-left: 4px solid var(--green-600);
-  border-radius: 4px;
-  color: var(--muted);
-}
 
 /* ---------- Q&A ---------- */
 
