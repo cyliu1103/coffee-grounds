@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 130" width="240" height="130" role="img" aria-label="Coffee grounds being emptied into a container">
+  <!-- red general waste bin, fading out -->
+  <g opacity=".45">
+    <path d="M14 62 h44 l-5 56 h-34 z" fill="#b4443c"/>
+    <rect x="9" y="55" width="54" height="8" rx="4" fill="#8e322b"/>
+  </g>
+  <g fill="none" stroke="#b4443c" stroke-width="3" stroke-linecap="round" opacity=".55">
+    <path d="M26 50 q6 -8 0 -16"/>
+    <path d="M37 50 q6 -8 0 -16"/>
+    <path d="M48 50 q6 -8 0 -16"/>
+  </g>
+
+  <!-- arrow into the container -->
+  <path d="M118 22 v46 m0 0 l-13 -16 m13 16 l13 -16" fill="none" stroke="#f7f2ea" stroke-width="5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- container -->
+  <path d="M140 58 h74 l-7 60 h-60 z" fill="#4a7c3a"/>
+  <rect x="134" y="50" width="86" height="10" rx="5" fill="#3b6630"/>
+  <rect x="152" y="74" width="50" height="6" rx="3" fill="#ffffff" opacity=".55"/>
+  <path d="M158 96 h38" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+</svg>
